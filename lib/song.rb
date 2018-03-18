@@ -55,6 +55,9 @@ def self.create_from_filename(file_name)
   song.name = file[1].chomp(".mp3")
   @@all << song
   song
+end
+
+def self.destroy_all
 
 end
 

@@ -43,8 +43,8 @@ end
 def self.new_from_filename(file_name)
   song = self.new
   file = file_name.split(" - ")
-  song.artist_name = file[0]
-  song.name = file[1].chomp(".mp3")
+  artist_name = file[0]
+  name = file[1].chomp(".mp3")
   song
 
 end

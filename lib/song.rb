@@ -46,8 +46,9 @@ def self.new_from_filename(file_name)
   song.artist_name = file[0]
   song.name = file[1].chomp(".mp3")
   song
+end
 
-
+def self.create_from_filename
 
 end
 
